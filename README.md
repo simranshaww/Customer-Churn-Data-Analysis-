@@ -93,11 +93,10 @@ customer-churn-analysis/
 
 🚀 How to Reproduce This Analysis?
 1. Clone this repository
-2. Install dependencies: pip install pandas numpy    matplotlib seaborn scikit-learn
-3. Run the Jupyter notebook in /notebooks for EDA
-   and modeling
+2. Install dependencies: pip install pandas numpy matplotlib seaborn scikit-learn
+3. Run the Jupyter notebook in /notebooks for EDA and modeling
 4. Load /sql/churn_queries.sql into PostgreSQL
-5.  Open /dashboard/churn_dashboard.pbix in Power     BI Desktop to explore the interactive         dashboard
+5. Open /dashboard/churn_dashboard.pbix in Power BI Desktop to explore the interactive dashboard
 
 
 
