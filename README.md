@@ -55,10 +55,54 @@ Interactive filters (slicers) for Contract, Internet Service, Senior Citizen, an
 (See /dashboard folder for the .pbix file and exported screenshot)
 
 
+
 💡 Business Recommendations
 Incentivize longer-term contracts — offer discounts or perks for switching from month-to-month to annual plans, since this is the single biggest churn lever.
 Investigate fiber optic service quality/pricing — high churn among fiber customers suggests a pricing or service satisfaction issue worth root-causing.
 Bundle support services — proactively offer Online Security and Tech Support to at-risk customers (especially new, month-to-month customers).
 Target early-tenure customers — since churn is concentrated in the first year, focus retention campaigns on the first 12 months of the customer lifecycle.
 Review the electronic check payment experience — the unusually high churn rate for this payment method warrants further investigation.
+
+
+📁 Repository Structure
+code :
+customer-churn-analysis/
+│
+├── data/
+│   └── Telco_Customer_Churn_CLEANED.csv
+│
+├── notebooks/
+│   └── churn_eda_and_modeling.ipynb
+│
+├── sql/
+│   └── churn_queries.sql
+│
+├── dashboard/
+│   ├── churn_dashboard.pbix
+│   └── dashboard_screenshot.png
+│
+├── charts/
+│   ├── 1_overall_churn.png
+│   ├── 2_churn_by_contract.png
+│   ├── 3_churn_by_internet.png
+│   ├── 4_churn_by_payment.png
+│   ├── 5_tenure_distribution.png
+│   └── 6_monthlycharges_distribution.png
+│
+└── README.md
+
+🚀 How to Reproduce This Analysis?
+1. Clone this repository
+2. Install dependencies: pip install pandas numpy    matplotlib seaborn scikit-learn
+3. Run the Jupyter notebook in /notebooks for EDA
+   and modeling
+4. Load /sql/churn_queries.sql into PostgreSQL
+5.  Open /dashboard/churn_dashboard.pbix in Power     BI Desktop to explore the interactive         dashboard
+
+
+
+Simran Shaw
+LinkedIn account: https://www.linkedin.com/in/simran-shaw-aa7451362?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+
 
