@@ -1,15 +1,18 @@
 Customer Churn Analysis Project
 
 📌 Project Overview
+
 This project analyzes customer behavior for a telecom company to identify why customers stop using its services (churn), and provides data-driven recommendations to reduce churn. The analysis moves from raw data exploration through SQL analysis, predictive modeling, and an interactive dashboard.
 Business Question: What factors drive customers to leave, and how can the company reduce churn?
 
 
 🎯 Project Goal
+
 Businesses lose significant revenue when customers churn. This project identifies the key drivers of churn using customer account, service, and billing data, and delivers actionable insights to support retention strategy.
 
 
 🛠️ Tools & Technologies
+
 Excel : Initial data inspection and cleaning
 Python (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn) : Exploratory Data Analysis (EDA) and predictive modeling
 SQL (PostgreSQL) : Data querying and business-question analysis
@@ -17,6 +20,7 @@ Power BI :Interactive dashboard and visualization
 
 
 📂 Dataset
+
 Source: Telco Customer Churn dataset
 Rows: 7,043 customers
 Columns: 21 (demographics, account info, subscribed services, and churn status)
@@ -24,6 +28,7 @@ Target variable: Churn (Yes/No)
 
 
 🔍 Key Insights
+
 Overall churn rate: 26.5% (1,869 of 7,043 customers)
 Contract type is the strongest churn driver.
 Month-to-month customers churn at 42.7%, vs. 11.3% for one-year contracts and just 2.8% for two-year contracts.
